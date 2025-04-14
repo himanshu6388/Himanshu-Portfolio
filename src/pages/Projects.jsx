@@ -27,6 +27,15 @@ function Projects() {
       github:'https://github.com/himanshu6388/Project-Portfolio',
       demo: "https://projectportfoli.netlify.app/",
       tech: ["Firebase"],
+    },
+    ,
+    {
+      title:'Netflix Landing Page',
+      description:'Made with Help of AI',
+      image:'netflix.png',
+      github:'https://github.com/himanshu6388/Netflix-landing-page',
+      demo: "https://wondrous-boba-5ff7d7.netlify.app/",
+      tech: ["html","css"],
     }
   ]
   return (
