@@ -113,7 +113,7 @@ function Home() {
                 <img src="jrp.png" alt="" className='w-full h-full' />
               </div>
               <div className="p-6">
-                <a href='https://github.com/himanshu6388/Research-Publication' className="text-xl hover:text-red-600 cursor-pointer font-semibold text-gray-800 ">
+                <a href='https://researchpublication.netlify.app/' className="text-xl hover:text-red-600 cursor-pointer font-semibold text-gray-800 ">
                   Research Publications & Journal
                 </a>
                 <p className="mt-2 text-gray-600 ">
@@ -125,16 +125,44 @@ function Home() {
             {/* Project 3 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="h-48 bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
-                <span className="text-gray-500 ">Project Preview</span>
+                {/* <span className="text-gray-500 ">Project Preview</span> */}
+                <img src="netflix.png" alt="" />
               </div>
               <div className="p-6">
-                <a href='' className="text-xl hover:text-red-600 font-semibold text-gray-800 ">
+                <a href='https://wondrous-boba-5ff7d7.netlify.app/' className="text-xl hover:text-red-600 font-semibold text-gray-800 ">
                   Netflix Clone Landing Page
                 </a>
                 <p className="mt-2 text-gray-600 ">
-                  Responsive UI clone with modern design.
+                  Created with the help of  AI 
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className='py-12 md:py-20 px-6'>
+          <div>
+            <h1 className='text-2xl font-bold md:text-3xl md:font-bold text-center md:text-center mb-10'>About us</h1>
+            {/* About card */}
+            <div className='shadow-lg h-auto   rounded md:h-52 md:flex transform transition duration-300 hover:scale-105 hover:shadow-lg'>
+                <div className="image  h-1/2 md:h-full md:shadow-2xl w-full overflow-hidden">
+                  <img src="https://images.pexels.com/photos/343717/pexels-photo-343717.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className='rounded w-full h-full object-cover object-center'/>
+                </div>
+                <p className='px-4 py-4'>Hi, I’m Himanshu — a passionate Frontend Web Developer with a love for clean design and responsive UI. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+                </p>
+            </div>
+          </div>
+          <div className='mt-20'>
+            <h2 className='py-10 text-2xl md:text-3xl font-bold text-center'>How I Use Skill</h2>
+          {/* Skill Card */}
+          <div className='shadow-lg h-auto   rounded md:h-52 md:flex transform transition duration-300 hover:scale-105 hover:shadow-lg'>
+                <div className="image  h-1/2 md:h-full md:shadow-2xl w-full overflow-hidden">
+                  <img src="https://images.pexels.com/photos/16129724/pexels-photo-16129724/free-photo-of-man-working-on-computers-coding.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className='rounded w-full h-full object-cover object-center'/>
+                </div>
+                <p className='px-4 py-4'>
+                I specialize in building modern, fast, and accessible websites using React.js, Tailwind CSS, and JavaScript. I'm also comfortable working with Git, Figma, and Firebase to streamline development and collaboration.
+
+                </p>
             </div>
           </div>
         </section>
