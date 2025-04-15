@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex gap-6">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/himanshu6388" 
               target="_blank" 
               rel="noopener noreferrer"
               className=" hover:text-white transition-colors duration-300"
@@ -28,7 +28,7 @@ const Footer = () => {
               <FaGithub className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://linkedin.com/in/himanshu6388" 
               target="_blank" 
               rel="noopener noreferrer"
               className=" hover:text-white transition-colors duration-300"
@@ -69,7 +69,7 @@ const Footer = () => {
         {/* Copyright + Navigation Links */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            © {currentYear} <span className="font-semibold">Your Name</span>. All rights reserved.
+            © {currentYear} <span className="font-semibold">Himanshu Verma</span>. All rights reserved.
           </p>
 
           <div className="flex gap-6">
