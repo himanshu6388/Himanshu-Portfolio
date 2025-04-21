@@ -41,7 +41,7 @@ function Projects() {
   return (
     <>
       <Navbar/>
-      <div>
+      <div className='dark:bg-gray-900'>
         <h1 className='text-2xl font-bold md:text-3xl text-center pt-8 '>My Work</h1>
         <p className='text-sm text-center md:text-lg text-gray-600'>Short line about what you’ve built.</p>
         <div className='md:flex shrink-0 p-8 gap-10 md:flex-wrap overflow-hidden'>

@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import LandingPage from "./components/LandingPage"
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
 
   return (
    <>
+
+   
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projects" element={<Projects/>}/>

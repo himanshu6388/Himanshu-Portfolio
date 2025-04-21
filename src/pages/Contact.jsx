@@ -7,19 +7,19 @@ const Contact = () => {
   return (
     <>
     <Navbar/>
-    <section id="contact" className="min-h-screen bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="min-h-screen bg-gray-50 dark:bg-gray-900 dark:text-white py-20  sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Get In <span className="text-indigo-600">Touch</span>
+          <h2 className="text-4xl mr-25 md:text-5xl font-bold text-gray-900 mb-4 dark:text-red-600">
+            Get In <span className="text-red-600">Touch</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto dark:text-white">
             Have a project in mind or want to discuss potential opportunities? I'd love to hear from you.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12 px-4">
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">

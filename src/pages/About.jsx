@@ -6,18 +6,18 @@ const About = () => {
   return (
     <>
     <Navbar/>
-    <section id="about" className="min-h-screen flex items-center bg-white py-20 px-4 sm:px-6 lg:px-8">
+    <section id="about" className="min-h-screen flex items-center bg-white dark:bg-gray-900 dark:text-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* Image */}
         <div className="relative flex justify-center md:justify-end">
           <div className="relative">
             <img
-              src="image.jpg" // Replace with your image path
+              src="image.png" // Replace with your image path
               alt="Himanshu Profile"
               className="w-72 h-72 rounded-lg object-cover shadow-xl transform rotate-1 hover:rotate-0 transition duration-500"
             />
             <div className="absolute -inset-4 border-2 border-indigo-100 rounded-lg -z-10"></div>
-            <div className="absolute -bottom-6 -right-6 bg-red-700 text-white px-4 py-2 rounded-lg shadow-lg">
+            <div className="absolute -bottom-6 -right-0 bg-red-700 text-white px-4 py-2 rounded-lg shadow-lg">
               <span className="font-medium">Frontend Developer</span>
             </div>
           </div>
@@ -30,7 +30,7 @@ const About = () => {
           </h2>
           
           <div className="border-l-4 border-red-500 pl-4">
-            <p className="text-gray-700 text-lg leading-relaxed">
+            <p className="text-gray-700 text-lg leading-relaxed dark:text-white">
               Hi, I'm <span className="font-semibold text-gray-900">Himanshu</span> — a passionate frontend engineer dedicated to crafting exceptional digital experiences that blend aesthetics with functionality.
             </p>
           </div>
@@ -61,7 +61,7 @@ const About = () => {
             </a>
             <a
               href="#projects"
-              className="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 font-medium rounded-lg shadow-sm hover:bg-gray-50 transition duration-300 hover:-translate-y-1"
+              className="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 dark:text-white font-medium rounded-lg shadow-sm hover:bg-gray-50 transition duration-300 hover:-translate-y-1"
             >
               View My Work
             </a>

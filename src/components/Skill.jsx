@@ -36,8 +36,8 @@ const Skill = () => {
   }, [controls, isInView]);
 
   return (
-    <div className="py-16  overflow-hidden" ref={ref}>
-      <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+    <div className="py-16  overflow-hidden lg:px-8" ref={ref}>
+      <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
         My Tech Stack
       </h2>
 
